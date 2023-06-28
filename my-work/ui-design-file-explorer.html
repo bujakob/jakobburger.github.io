@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jakob burger | ui design explorer photo</title>
+    <style>
+        body {
+            background-color: rgb(40, 40, 40);
+            margin: 0;
+            padding: 0;
+        }
+
+        .image {
+            position: absolute;
+            left: calc(50vw - 40%);
+            top: 50vh;
+            transform: translateY(-50%);
+            width: 80%;
+            border-radius: 3rem;
+
+            filter: drop-shadow(0 0 2rem black);
+        }
+
+        .svg-a {
+            position: absolute;
+            width: 1.5vw;
+            left: 85.75vw;
+            top: 7.5vh;
+            padding: 1.125rem;
+            border-radius: 2.5rem;
+
+            background: rgba(45, 45, 45, 0.5);
+            backdrop-filter: blur(20px);
+
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="../imports/images/explorer_concept.png" alt="ui design explorer photo" class="image">
+        <a href=".." class="svg-a">
+            <svg id="Layer_1" class="svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119.04 119.04"><defs><style>.cls-1{fill: rgba(0, 0, 0, 0);stroke:#c9c9c9;stroke-linecap:round;stroke-linejoin:round;stroke-width:23px;}</style></defs><line class="cls-1" x1="11.5" y1="11.5" x2="107.54" y2="107.54"/><line class="cls-1" x1="107.54" y1="11.5" x2="11.5" y2="107.54"/></svg>
+        </a>
+    </div>
+</body>
+</html>
